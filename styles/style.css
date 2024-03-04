@@ -106,8 +106,7 @@ main section article:hover {
 }
 
 .parrafo {
-    margin-left: 48px;
-    margin-top: 96px;
+    margin-top: 48px;
 }
 
 .parrafo p {
@@ -115,10 +114,21 @@ main section article:hover {
 }
 
 .parrafo1 {
-    margin-top: 96px;
+    margin-top: 48px;
 }
 
 /* Fin del Main */
+/* main de historia */
+
+.img-float{
+    float:left;
+    margin-right: 16px;
+}
+
+.img-float1{ 
+    float:right;
+    margin-left: 16px;
+}
 
 /* Footer */
 
@@ -181,6 +191,63 @@ footer {
     margin-bottom: 0px ;
 }
 
+/* fin del main creaciones */
+
+/* main contacto */
+
+input {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px #80bc77 solid;
+    border-radius: 5px;
+}
+
+input:hover {
+    background-color: #bab9b9;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px #80bc77 solid;
+    border-radius: 5px;
+    min-height: 257px;
+    max-height: 257px;
+}
+
+textarea:hover {
+    background-color: #bab9b9;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.boton {
+    background-color: #80bc77;
+    border: none;
+}
+
+.boton:hover {
+    background-color: #608e59;
+}
+
+iframe {
+    border-radius: 16px;
+}
+
+@media only screen and (max-width: 450px) {
+    iframe {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 768px) {
  /* Index */
     h1 {
@@ -239,8 +306,30 @@ footer {
         margin: 0;
     }
 
-}
+    /* historia */
 
+    .images{
+        width: 200px;
+    }
+
+    .img-float {
+        float: none;
+    }
+
+    .img-float {
+        float: none;
+    }
+
+    /* fin de historia */
+
+    /* contacto */
+
+
+    iframe {
+        width: 300px;
+        margin-top: 32px;
+    }
+}
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
 /* index */

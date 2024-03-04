@@ -4,63 +4,90 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../estilos/style.css" />
-    <title>Talleres</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;800&family=Noto+Serif+Display:ital,wght@0,200;0,300;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>Efectomandalas | Mandalera desde otras vidas</title>
   </head>
-  <body>
+
+  <body class="container">
     <header>
-      <h1>Efectomandala</h1>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="creaciones.html">Creaciones</a></li>
-          <li><a href="talleres.html">Talleres</a></li>
-          <li><a href="historia.html">Historia</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid d-flex aling-items-center nav-container">
+          <h1 class="mb-0">Efectomandalas</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav navegacion-elementos background-nav">
+              <a class="nav-link" href="../index.html">Home</a>
+              <a class="nav-link" href="creaciones.html">Creaciones</a>
+              <a class="nav-link" href="historia.html">Historia</a>
+              <a class="nav-link selected" href="talleres.html">Talleres</a>
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>  
+    
     </header>
+
     <main>
       <section>
-        <h2>Acerca de mis talleres</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
-          expedita, illo sequi doloremque dolorum et quisquam impedit asperiores
-          dolores mollitia aliquam cum tempore eius neque ipsum reiciendis
-          ratione nostrum excepturi.
-        </p>
+        <article class="articulos flex-column">
+          <h2 class="text-center">Acerca de mis talleres</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
+            expedita, illo sequi doloremque dolorum et quisquam impedit asperiores
+            dolores mollitia aliquam cum tempore eius neque ipsum reiciendis
+            ratione nostrum excepturi.
+          </p>
+      </article>
       </section>
     </main>
-    <footer>
-      <section>
-        <article>
-          <h2>Menu</h2>
-          <ul>
-            <li>Home</li>
-            <li>Creaciones</li>
-            <li>Talleres</li>
-            <li>Historia</li>
-            <li>Contactos</li>
-          </ul>
-        </article>
-        <article>
-          <h2>Seguime en...</h2>
-          <ul>
-            <li>Instagram</li>
-            <li>Facebook</li>
-            <li>Tiktok</li>
-          </ul>
-        </article>
-        <article>
-          <h2>Efectomandalas</h2>
-          <ul>
-            <li>Copyright</li>
-          </ul>
-        </article>
-      </section>
+    <footer class="d-flex ">
+      <div class="section-footer col-xl-4">
+        <h3>Navegación</h3>
+        <ul>
+          <li><a class="nav-link" href="../index.html">Home</a></li>
+          <li><a class="nav-link" href="creaciones.html">Creaciones</a></li>
+          <li><a class="nav-link" href="historia.html">Historia</a></li>
+          <li><a class="nav-link" href="talleres.html">Talleres</a></li>
+          <li><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="section-footer col-xl-4">
+        <h3>Redes Sociales...</h3>
+        <ul>
+          <li><a class="nav-link" href=""><i class="bi bi-instagram"></i></a></li>
+          <li><a class="nav-link" href=""><i class="bi bi-facebook"></i></a></li>
+          <li><a class="nav-link" href=""><i class="bi bi-tiktok"></i></a></li>
+        </ul>
+      </div>
+      <div class="section-footer col-xl-4">
+        <h3>Efectomandalas</h3>
+        <ul>
+          <li>© Copyright</li>
+        </ul>
+      </div>
+
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
