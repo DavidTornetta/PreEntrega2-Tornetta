@@ -1,0 +1,47 @@
+input {
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px #80bc77 solid;
+  border-radius: 5px;
+
+  &:hover {
+      background-color: #bab9b9;
+  }
+
+  &:focus {
+      outline: none;
+  }
+}
+
+textarea {
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px #80bc77 solid;
+  border-radius: 5px;
+  min-height: 257px;
+  max-height: 257px;
+
+  &:hover {
+    background-color: #bab9b9;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.boton {
+  background-color: #80bc77;
+  border: none;
+
+  &:hover {
+    background-color: #608e59;
+    color: white;
+  }
+}
+
+iframe {
+  border-radius: 16px;
+}

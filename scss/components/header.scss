@@ -1,0 +1,39 @@
+header {
+  background-color: #fcf4ec;
+  height: 125px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.navbar {
+  padding-top: 32px;
+  padding-bottom: 0;
+  margin: 0 32px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  user-select: none;
+  color: rgb(0, 0, 0);
+}
+
+.navegacion-elementos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  gap: 32px;
+}
+
+.background-nav {
+  background-color: #fcf4ec;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+}
+
+.selected {
+  font-weight: 700;
+}

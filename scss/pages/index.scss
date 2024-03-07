@@ -1,0 +1,54 @@
+main section {
+  margin-top: 64px;
+
+    article {
+      border-radius: 16px;
+      margin: 0 32px;
+      margin-bottom: 64px;
+      padding: 48px;
+      transition: all ease-in-out 0.3s;
+
+      &:hover {
+        scale: 1.02;
+      }
+    }
+}
+
+.articulos {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 16px;
+
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+  }
+}
+
+
+.img-container {
+  justify-content: space-between;
+  margin-top: 48px;
+}
+
+.textos h2 {
+  text-align: center;
+}
+
+.parrafo {
+  margin-top: 48px;
+
+  p {
+    margin-right: 0;
+  }
+}
+
+.parrafo1 {
+  margin-top: 48px;
+}
