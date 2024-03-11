@@ -26,3 +26,19 @@ footer {
 .section-footer ul li a:hover {
   color: #7f7f7f;
 }
+
+
+@media only screen and (max-width: 768px){
+
+  footer {
+    flex-direction: column;
+    height: 675px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+  .section-footer {
+    padding-inline: 32px;
+  }
+}

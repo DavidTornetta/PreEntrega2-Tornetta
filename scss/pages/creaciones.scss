@@ -23,3 +23,24 @@
   margin-right: 48px;
   margin-bottom: 0px;
 }
+
+@media only screen and (max-width: 768px) {
+  .creaciones-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .creaciones-wrap p {
+      margin: 0;
+  }
+
+  .creaciones-wrap1 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .margen-parrafo {
+    margin: 0;
+  }
+
+}
