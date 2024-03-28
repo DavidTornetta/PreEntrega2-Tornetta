@@ -24,10 +24,21 @@
   margin-bottom: 0px;
 }
 
+.creaciones-wrap{
+  display: flex;
+}
+
+.creaciones-wrap1 {
+  display: flex;
+}
+
 @media only screen and (max-width: 768px) {
+
+
   .creaciones-wrap {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .creaciones-wrap p {
@@ -37,10 +48,16 @@
   .creaciones-wrap1 {
     display: flex;
     flex-wrap: wrap-reverse;
+    justify-content: center;
   }
 
   .margen-parrafo {
     margin: 0;
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
   }
 
 }
